@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #000;
+}
+.container {
+  max-width: 500px;
+  margin: 300px auto;
+  margin-bottom: 0;
+  width: 100%;
+  background: linear-gradient(red, rgb(128, 79, 0));
+  padding: 50px 0;
+  border-radius: 10px;
+  transition: all .3s ease ;
+  cursor: pointer;
+  box-shadow: 0 5px 0 rgba(19, 49, 125, 0.3);
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock div {
+    font-size: 50px;
+}
+.container:hover {
+    background: linear-gradient(purple, red);
+}
+.clock div span {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 70px;
+    cursor: text;
+}
+h1 {
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+}
